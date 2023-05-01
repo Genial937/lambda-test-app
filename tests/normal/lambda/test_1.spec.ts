@@ -1,4 +1,4 @@
-import test from "../lambdatest-setup";
+import test from "../../../lambdatest-setup";
 import { expect } from "@playwright/experimental-ct-react";
 
 test.describe("Browse LambdaTest in different search engines", () => {
