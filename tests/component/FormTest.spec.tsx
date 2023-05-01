@@ -12,3 +12,4 @@ test('Form component test', async ({ mount, page }) => {
     await page.locator('div').filter({ hasText: /^Email$/ }).getByRole('textbox').fill('magi@gmail.com');
     await page.getByRole('button', { name: 'Submit' }).click();
 });
+

@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
 import Form from './components/Form';
+import Button from './components/Button';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           </div>
           <div className="col-md-6">
             <Form />
+          </div>
+          <div className="col-md-6">
+            <Button title="Submit" />
           </div>
         </div>
       </div>

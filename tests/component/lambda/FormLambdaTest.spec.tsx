@@ -5,7 +5,7 @@ import React from 'react';
 
 test.use({ viewport: { width: 500, height: 1000 } });
 
-test('Form component test', async ({ mount, page }) => {
+test('Form component test on lambda', async ({ mount, page }) => {
     const component = await mount(<Form />);
     await page.locator('div').filter({ hasText: /^Name$/ }).getByRole('textbox').click();
     await page.locator('div').filter({ hasText: /^Name$/ }).getByRole('textbox').fill('Magi');
