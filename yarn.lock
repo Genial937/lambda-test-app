@@ -1708,7 +1708,7 @@
     "@playwright/test" "1.33.0"
     vite "^4.2.1"
 
-"@playwright/experimental-ct-react@^1.33.0":
+"@playwright/experimental-ct-react@^1.32.3":
   version "1.33.0"
   resolved "https://registry.yarnpkg.com/@playwright/experimental-ct-react/-/experimental-ct-react-1.33.0.tgz#ddea771443d4e5c97f3da522b071d0526b0e391f"
   integrity sha512-HjkLAG9z0VlxOlL/MtR7dD3RgZGL42tF3Ny4UNl3qpTRYLZlo5F+epd+mEPgdYyDNmFuZpc/K+yMMwBLs1WEHA==
@@ -1716,7 +1716,7 @@
     "@playwright/experimental-ct-core" "1.33.0"
     "@vitejs/plugin-react" "^3.1.0"
 
-"@playwright/test@1.33.0", "@playwright/test@^1.33.0":
+"@playwright/test@1.33.0":
   version "1.33.0"
   resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.33.0.tgz#669ef859efb81b143dfc624eef99d1dd92a81b67"
   integrity sha512-YunBa2mE7Hq4CfPkGzQRK916a4tuZoVx/EpLjeWlTVOnD4S2+fdaQZE0LJkbfhN5FTSKNLdcl7MoT5XB37bTkg==

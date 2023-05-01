@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './compoents/Navbar';
-import Card from './compoents/Card';
-import Form from './compoents/Form';
+import Navbar from './components/Navbar';
+import Card from './components/Card';
+import Form from './components/Form';
 
 function App() {
   return (

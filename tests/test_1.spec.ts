@@ -1,5 +1,5 @@
 import test from "../lambdatest-setup";
-import { expect } from "@playwright/test";
+import { expect } from "@playwright/experimental-ct-react";
 
 test.describe("Browse LambdaTest in different search engines", () => {
     test("Search LambdaTest on Bing", async ({ page }) => {

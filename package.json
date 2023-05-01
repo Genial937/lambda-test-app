@@ -24,6 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "test-ct": "playwright test -c playwright-ct.config.ts",
+    "lambda:test-ct": "playwright test -c playwright-ct.lambda-config.ts",
     "lambda:test": "npx playwright test --config=./playwright.lambda-config.ts"
   },
   "eslintConfig": {
@@ -45,7 +46,6 @@
     ]
   },
   "devDependencies": {
-    "@playwright/experimental-ct-react": "^1.33.0",
-    "@playwright/test": "^1.33.0"
+    "@playwright/experimental-ct-react": "^1.32.3"
   }
 }

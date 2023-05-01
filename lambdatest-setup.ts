@@ -4,7 +4,7 @@
  * Import `test` object from this file in the tests.
  */
 require('dotenv').config();
-import * as base from "@playwright/test";
+import * as base from "@playwright/experimental-ct-react";
 import path from "path";
 // eslint-disable-next-line import/first
 import { chromium } from "playwright";
